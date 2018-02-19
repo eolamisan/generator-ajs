@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Edward Olamisan",
+      "authorEmail": "eolamisan@hotmail.com",
+      "authorUrl": "https://github.com/eolamisan"
+    }
+  }
+}
