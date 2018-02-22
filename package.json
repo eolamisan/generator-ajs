@@ -1,6 +1,6 @@
 {
   "name": "generator-ajs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generator for AngularJS with ES6 and Webpack",
   "homepage": "https://github.com/eolamisan/generator-ajs",
   "author": {
