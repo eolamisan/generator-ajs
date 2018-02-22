@@ -22,7 +22,7 @@ module.exports = class extends Generator {
 
     this.fs.copyTpl(
       this.templatePath('template.service.spec.js'),
-      this.destinationPath(this.options.servicename + 'service.spec.js'),
+      this.destinationPath(this.options.servicename + '.service.spec.js'),
       { servicename: this.options.servicename }
     );
   }
