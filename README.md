@@ -16,6 +16,24 @@ Then generate your new project:
 yo ajs
 ```
 
+To generate a component:
+
+```bash
+yo ajs:component <componentName>
+```
+
+To generate a service:
+
+```bash
+yo ajs:service <serviceName>
+```
+
+To generate a feature:
+
+```bash
+yo ajs:feature <featureName>
+```
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.

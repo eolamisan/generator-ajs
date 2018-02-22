@@ -8,9 +8,17 @@
     "email": "eolamisan@hotmail.com",
     "url": "https://github.com/eolamisan"
   },
-  "files": ["generators"],
+  "files": [
+    "generators"
+  ],
   "main": "generators/index.js",
-  "keywords": ["AngularJS", "ES6", "ES2015", "Webpack", "yeoman-generator"],
+  "keywords": [
+    "AngularJS",
+    "ES6",
+    "ES2015",
+    "Webpack",
+    "yeoman-generator"
+  ],
   "devDependencies": {
     "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.4.0",
@@ -25,25 +33,34 @@
     "yeoman-test": "^1.7.0"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
+    "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "nsp check",
+    "prepublishOnly": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "eslintConfig": {
-    "extends": ["xo", "prettier"],
+    "extends": [
+      "xo",
+      "prettier"
+    ],
     "env": {
       "jest": true,
       "node": true
@@ -57,7 +74,9 @@
         }
       ]
     },
-    "plugins": ["prettier"]
+    "plugins": [
+      "prettier"
+    ]
   },
   "repository": "https://github.com/eolamisan/generator-ajs",
   "license": "MIT"
